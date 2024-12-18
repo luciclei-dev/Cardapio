@@ -1,0 +1,85 @@
+body {
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/criativo-burger.jpg);
+}
+main {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.7;
+
+    
+}
+.titulo-topo {
+    padding-top: 50px;
+}
+
+span {
+    text-align: center;
+    font-size: 60px;
+    color: rgb(255, 108, 3);
+}
+.conteudo {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+.itens {
+    display: flex;
+    justify-content: space-between;
+    width: 410px;
+    padding: 10px;
+}
+#sub-titulo {
+    font-size: 30px;
+}
+h1 {
+    text-align: center;
+    font-size: 80px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: azure;
+}
+
+h3 {
+    color: rgb(255, 108, 3);
+    font-size: 23px;
+}
+
+p {
+    color: white;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    font-size: 23px;
+}
+
+.preço p{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    border-radius: 25px;
+    background-color: rgb(255, 108, 3);
+}
+footer {
+    margin: 0px;
+    margin-top: 50px;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 108, 3);
+}
+img {
+    margin: 15px;
+}
+.icone {
+    display: flex;
+    justify-content: end;
+}
